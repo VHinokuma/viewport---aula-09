@@ -1,0 +1,23 @@
+/* o tamanho da letra acompanha a largura da tela */
+h1 {
+  font-size: 8vw;
+}
+
+/* a imagem nunca passa do tamanho da tela */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.caixa {
+  background-color: lightblue;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* muda a cor quando a tela for pequena (celular) */
+@media (max-width: 600px) {
+  .caixa {
+    background-color: pink;
+  }
+}
